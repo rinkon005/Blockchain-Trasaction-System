@@ -1,0 +1,12 @@
+{
+    "name": "Blockchain",
+    "description": "",
+    "authors": "Reyad Hasan Rinkon",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error:No test specified\" && exit 1"
+
+    },
+    "license": "ISC"
+}
