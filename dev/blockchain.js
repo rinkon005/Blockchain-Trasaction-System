@@ -9,9 +9,7 @@ Blockchain.prototype.createNewBlock=function(nonce,previousBlockHash,hash)
         index:this.chain.length+1,
         timestamp:Date.now(),
         transaction:this.newTransactions,
-        nonce: nonce,
-        //nonce is a proff of work
-        //nonce can be any number       
+        nonce: nonce,      
         hash:hash,
         previousBlockHash:previousBlockHash,
 
